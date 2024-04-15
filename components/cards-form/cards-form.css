@@ -1,0 +1,39 @@
+.cards-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px 0 0 0;
+  text-align: left;
+  gap: 35px;
+}
+
+.form-fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fieldset p {
+  text-align: right;
+  margin: 5px 0 0 0;
+}
+
+.input-text {
+  width: 50vw;
+}
+
+.input-tag {
+  width: 50vw;
+}
+
+.submit-button {
+  padding: 1.1rem 5rem;
+  background-color: white;
+  border: solid 0.1rem;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
